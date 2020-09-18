@@ -1,6 +1,6 @@
 Funcionalidade: Senha
 
-    Cenário: Modificar senha
+    Esquema de Cenário: Modificar senha
     Dado que esteja na área login
     Quando escolher modificar senha
     E preencher com "<senha_antiga>" e "<senha_nova>"
