@@ -1,10 +1,10 @@
-Feature:  Entrar no Google e pesquisar pela imagem batata
-    Com intuito de pesquisar a imagem batata
-    O usuário
-    Deve abrir a primeira imagem da pesquisa
+# languege: pt
 
-    Scenario: Pesquisar imagem de batata
-    Given que o usuário esteja no site do Google
-    When o usuário pesquisar batatas
-    And clicar na opção imagens
-    Then o usuário deve abrir a primeira imagem
+Funcionalidade:  Pesquisa
+
+    Cenário: Pesquisar imagem
+        Dado que esteja na home
+        Quando pesquisar "batata"
+        E acessar imagens
+        E abrir a primeira imagem
+        Então deverão ser exibidas as informações da imagem

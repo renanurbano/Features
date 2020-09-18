@@ -1,9 +1,8 @@
-Feature: Adicionar produto ao carrinho
-    A fim de adicionar um produto ao carrinho de compras
-    O usuário
-    Deve abrir o site do Magazine Luiza e incluir um computador ao carrinho.
+Funcionalidade: Produto
 
-    Scenario: Adicionar produto ao carrinho
-    Given que o usuário esteja no site do Magazine Luiza
-    When o usuário pesquisar por computador
-    Then o usuário deve inlcuir o primeiro produto do resultado ao carrinho
+    Cenário: Adicionar produto ao carrinho pela busca
+    Dado que esteja na home
+    Quando pesquisar por "computador"
+    E adicionar o primeiro produto ao carrinho
+    Então deverá ser exibida  a mensagem "Produto adicionado com sucesso!"
+    E o produto deverá estar no carrinho
